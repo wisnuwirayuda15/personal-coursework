@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: rgb(224, 224, 224);
+    font-family: 'Poppins', sans-serif;
+}
+
+.frame {
+    position: relative;
+    width: 595px;
+    height: 842px;
+    background: #FFFFFF;
+    margin: 100px auto;
+    box-shadow: 2px 2px 3px rgb(51, 51, 51);
+}
+
+.sidebar {
+    position: absolute;
+    width: 234px;
+    height: 842px;
+    left: 0px;
+    top: 0px;
+    background: rgba(72, 96, 84, 1);
+}
+
+.photo img {
+    box-sizing: border-box;
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    left: 25px;
+    top: 31px;
+    border: 5px solid #FFFFFF;
+    border-radius: 69px;
+}
+
+.frame .sidebar .name {
+    position: absolute;
+    width: 197px;
+    height: 74px;
+    left: 13px;
+    top: 180px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.frame .sidebar .job {
+    position: absolute;
+    width: 185px;
+    height: 19px;
+    left: 13px;
+    top: 250px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.6667px;
+    line-height: 19px;
+    color: #C4C2C2;
+}
+
+.frame .sidebar .birth {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px;
+    gap: 10px;
+    position: absolute;
+    width: 186px;
+    height: 23px;
+    left: 12px;
+    top: 310px;
+    background: #E5E5E5;
+    border-radius: 4px;
+}
+
+.frame .sidebar .phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px;
+    gap: 10px;
+    position: absolute;
+    width: 186px;
+    height: 23px;
+    left: 12px;
+    top: 350px;
+    background: #E5E5E5;
+    border-radius: 4px;
+}
+
+.frame .sidebar .email {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px;
+    gap: 10px;
+    position: absolute;
+    width: 186px;
+    height: 23px;
+    left: 12px;
+    top: 390px;
+    background: #E5E5E5;
+    border-radius: 4px;
+}
+
+.frame .sidebar .home {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px;
+    gap: 10px;
+    position: absolute;
+    width: 186px;
+    height: 23px;
+    left: 12px;
+    top: 430px;
+    background: #E5E5E5;
+    border-radius: 4px;
+}
+
+.frame .sidebar .skills {
+    position: absolute;
+    height: 18px;
+    left: 13px;
+    top: 470px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: white
+}
+
+.frame .sidebar .list {
+    font-weight: 400;
+}
+
+.frame .about {
+    position: absolute;
+    width: 330px;
+    height: 18px;
+    left: 240px;
+    top: -450px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    color: #878787;
+}
+
+.frame .edu {
+    position: absolute;
+    width: 330px;
+    height: 18px;
+    left: 240px;
+    top: -280px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    color: #878787;
+}
+
+.frame .exp {
+    position: absolute;
+    width: 330px;
+    height: 18px;
+    left: 240px;
+    top: -120px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    color: #878787;
+}
